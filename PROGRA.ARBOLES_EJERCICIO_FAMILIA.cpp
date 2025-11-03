@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <windows.h>
 #include <algorithm> // Para usar std::find
 
 using namespace std;
@@ -247,6 +248,7 @@ void consultar_cantidad_nietos(const string& nombre_abuelo) {
 
 // --- Menú y Función Principal ---
 int main() {
+	
     inicializar_indices(); // Inicializa todos los índices de hijos a -1
     cargar_arbol_familiar(); // Carga la estructura de la imagen
 
